@@ -1,0 +1,18 @@
+{
+  "name": "dishwasher-reminder-flic",
+  "version": "0.0.1",
+  "private": true,
+  "author": "ichusrlocalbin <ichusrlocalbin@gmail.com>",
+  "description": "x",
+  "dependencies": {
+    "request": "*",
+    "milight": "*"
+  },
+  "engines": {
+    "node": "6.1.0"
+  },
+  "scripts": {
+    "node": "fliclib-linux-hci/bin/armv6l/flicd -f flic.sqlite3 & node dishwasher.js",
+    "shell": "bash"
+  }
+}
