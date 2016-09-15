@@ -71,7 +71,7 @@ var get_light_color = function(callback) {
 
 var milight_request = function(color) {
    if (color == 'warning') {
-     milight.zone(1).rgb('#0000FF');
+     milight.zone(1).rgb('#FFA500');
    } else {
      milight.zone(1).white(50, function(error) { });
    }
